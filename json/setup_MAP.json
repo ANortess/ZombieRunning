@@ -1,0 +1,416 @@
+{
+    "world":{
+        "sizeMapBounds": {
+            "level_1": {
+                "upper_left_corner": {
+                    "x": -624,
+                    "y": -724
+                },
+                "lower_right_corner": {
+                    "x": 2048,
+                    "y": 2848
+                }
+            },
+            "level_2": {
+                "upper_left_corner": {
+                    "x": -624,
+                    "y": -1748
+                },
+                "lower_right_corner": {
+                    "x": 2048,
+                    "y": 3872
+                }
+            },
+            "level_3": {
+                "upper_left_corner": {
+                    "x": -624,
+                    "y": -2772
+                },
+                "lower_right_corner": {
+                    "x": 2048,
+                    "y": 4896
+                }
+            }
+        },
+        "background": {
+            "level_1": {
+                "x": 400,
+                "y": 300
+            },
+            "level_2": {
+                "x": 400,
+                "y": -1236
+            },
+            "level_3": {
+                "x": 400,
+                "y": -2260
+            }
+        },
+        "stairs": {
+            "x": -624,
+            "y": -965
+        },
+        "safe_area": {
+            "x": 400,
+            "y": 1724
+        },
+        "character": {
+            "x": 400,
+            "y": 1848
+        },
+        "buy_ammu": {
+            "x": 0,
+            "y": 1600
+        },
+        "reload_ammu": {
+            "x": 800,
+            "y": 1600
+        },
+        "fences": {
+            "left1": {
+                "x": -620,
+                "y": 1340
+            },
+            "left2": {
+                "x": -290,
+                "y": 1340
+            },
+            "right1": {
+                "x": 1070,
+                "y": 1340
+            },
+            "right2": {
+                "x": 510,
+                "y": 1340
+            }
+        },
+        "decoration": {
+            "decor41": {
+                "x": -30,
+                "y": 180
+            },
+            "decor42": {
+                "x": -50,
+                "y": -180
+            },
+            "decor51": {
+                "x": -180,
+                "y": -30
+            },
+            "decor52": {
+                "x": 180,
+                "y": -50
+            },
+            "decor6": {
+                "x": 1000,
+                "y": -1300
+            },
+            "decor7": {
+                "x": -20,
+                "y": -20
+            },
+            "greenery1": {
+                "x": -300,
+                "y": 800
+            },
+            "greenery6": {
+                "x": 1050,
+                "y": -450
+            },
+            "stone": {
+                "x": 450,
+                "y": -1600
+            }
+        },
+        "unlock_zone_1": {
+            "barrier": {
+                "x": 400,
+                "y": -690
+            },
+            "pleasure": {
+                "x": 400,
+                "y": -600
+            }
+        },
+        "unlock_zone_2": {
+            "barrier": {
+                "x": 400,
+                "y": -1714
+            },
+            "pleasure": {
+                "x": 400,
+                "y": -1624
+            }
+        },
+        "zone_win": {
+            "pleasure": {
+                "x": 400,
+                "y": -2648
+            }
+        }
+    },
+    "HUD": {
+        "R_to_reload": {
+            "x": 400,
+            "y": 200
+        },
+        "in_saferea": {
+            "x": 400,
+            "y": 480
+        },
+        "cant_reload": {
+            "x": 400,
+            "y": 420
+        },
+        "total_bullets": {
+            "x": 680,
+            "y": 550
+        },
+        "total_money": {
+            "x": 700,
+            "y": 50
+        },
+        "reload_weapon": {
+            "x": 400,
+            "y": 300
+        },
+        "message": {
+            "unlock_zone_1": {
+                "x": 400,
+                "y": 520
+            }
+        },
+        "sprite": {
+            "health": {
+                "x": 40,
+                "y": 50
+            },
+            "money": {
+                "x": 770,
+                "y": 47
+            },
+            "gem": {
+                "x": 770,
+                "y": 97
+            }
+        },
+        "seconds_in_saferea": {
+            "x": 400,
+            "y": 540
+        }
+    },
+    "unlock_new_area": {
+        "background": {
+            "x": 400,
+            "y": 300
+        },
+        "title": {
+            "x": 400,
+            "y": 150
+        },
+        "description":{
+            "x": 400,
+            "y": 250
+        },
+        "cost":{
+            "x": 270,
+            "y": 340
+        },
+        "button": {
+            "buy": {
+                "x": 400,
+                "y": 430
+            },
+            "return": {
+                "x": 660,
+                "y": 120
+            },
+            "confirm": {
+                "x": 270,
+                "y": 430
+            },
+            "cancel": {
+                "x": 530,
+                "y": 430
+            }
+        },
+        "money": {
+            "x": 380,
+            "y": 340
+        },
+        "gem":{
+            "x": 520,
+            "y": 340
+        },
+        "sprites": {
+            "money":{
+                "x": 425,
+                "y": 340
+            },
+            "gem":{
+                "x": 560,
+                "y": 340
+            }
+        }
+    },
+    "pause": {
+        "background": {
+            "x": 400,
+            "y": 300
+        },
+        "button": {
+            "continue": {
+                "x": 400,
+                "y": 205
+            },
+            "restart": {
+                "x": 400,
+                "y": 290    
+            },
+            "return_to_menu": {
+                "x": 400,
+                "y": 375
+            }
+        },
+        "text": {
+            "totalPoints": {
+                "x": 400,
+                "y": 450
+            }
+        }
+    },
+    "shop": {
+        "background": {
+            "x": 400,
+            "y": 300
+        },
+        "button": {
+            "buy": {
+                "x": 400,
+                "y": 430
+            },
+            "return": {
+                "x": 660,
+                "y": 120
+            },
+            "confirm": {
+                "x": 270,
+                "y": 430
+            },
+            "cancel": {
+                "x": 530,
+                "y": 430
+            }
+        },
+        "text": {
+            "ammu_in_charger": {
+                "x": 440,
+                "y": 205
+            },
+            "ammu_in_charger_buy": {
+                "x": 600,
+                "y": 205
+            },
+            "ammu_in_pocket": {
+                "x": 440,
+                "y": 270
+            },
+            "ammu_in_pocket_buy": {
+                "x": 600,
+                "y": 270
+            },
+            "costMoney": {
+                "x": 475,
+                "y": 351
+            },
+            "costGem":{
+                "x": 635,
+                "y": 351
+            },
+            "current_money": {
+                "x": 400,
+                "y": 550
+            }
+
+        },
+        "panel_current_money": {
+            "x": 400, 
+            "y": 550
+        },
+        "sprites": {
+            "money": {
+                "x": 485, 
+                "y": 330
+            },
+            "gems": {
+                "x": 640, 
+                "y": 327
+            }
+        }
+    },
+    "game": {
+        "safe_area": {
+            "y": 1324
+        },
+        "enemy": {
+            "level_1": {
+                "upper_left_corner": {
+                    "x": -624,
+                    "y": -654
+                },
+                "lower_right_corner": {
+                    "x": 1824,
+                    "y": 1324
+                },
+                "spawn_ms": {
+                    "lower": 3000,
+                    "upper": 7000
+                }
+            },
+            "level_2": {
+                "upper_left_corner": {
+                    "x": -624,
+                    "y": -1654
+                },
+                "lower_right_corner": {
+                    "x": 1824,
+                    "y": -1000
+                },
+                "spawn_ms": {
+                    "lower": 5000,
+                    "upper": 10000
+                }
+            },
+            "level_3": {
+                "upper_left_corner": {
+                    "x": -624,
+                    "y": -2754
+                },
+                "lower_right_corner": {
+                    "x": 1824,
+                    "y": -2028
+                },
+                "spawn_ms": {
+                    "lower": 10000,
+                    "upper": 20000
+                }
+            }
+        },
+        "bullet": {
+            "collision_detected": 50
+        },
+        "money": {
+            "collision_detected": 60
+        },
+        "gem": {
+            "collision_detected": 60
+        },
+        "health": {
+            "collision_detected": 60
+        },
+        "attack": {
+            "collision_detected": 60
+        }
+    }
+
+}

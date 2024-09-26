@@ -1,0 +1,71 @@
+{
+    "character": {
+        "radius_detected": 300,
+        "velocity": 370,
+        "totalHealth": 100,
+        "totalHealthMAX": 100
+    },
+    "enemy": {
+        "stop_to_player": 70,
+        "do_damage": 71,
+        "totalHealth": 100,
+        "probability": 500
+    },
+    "enemy2": {
+        "stop_to_player": 70,
+        "do_damage": 100,
+        "totalHealth": 100,
+        "probability": 600
+    },
+    "enemy3": {
+        "stop_to_player": 70,
+        "do_damage": 120,
+        "totalHealth": 100,
+        "probability": 700
+    },
+    "bullet": {
+        "velocity": 600,
+        "damage1": 20,
+        "damage2": 10,
+        "damage3": 5,
+        "money_for_kill_1": 3,
+        "money_for_kill_2": 5,
+        "money_for_kill_3": 10
+    },
+    "ammunition": {
+        "totalAmmu": 30,
+        "actuallyAmmu": 10,
+        "totalCapacityAmmu": 10
+    },
+    "cost": {
+        "level_1": {
+            "money": 50,
+            "gem": 20
+        },
+        "level_2": {
+            "money": 100,
+            "gem": 30
+        },
+        "win": {
+            "money": 250,
+            "gem": 50
+        }
+    },
+    "gems_ms": {
+        "lower": 10000,
+        "upper": 20000
+    },
+    "health_power_up_ms": {
+        "lower": 30000,
+        "upper": 40000
+    },
+    "attack_power_up_ms": {
+        "lower": 40000,
+        "upper": 60000
+    },
+    "cost_money": [12, 24, 30, 60, 90, 110, 130, 0],
+    "cost_gems": [0, 0, 0, 5, 15, 20, 25, 0],
+    "total_in_charger_ammu_buy": [10, 12, 15, 18, 20, 24, 27, 30, 0],
+    "total_in_pocket_ammu_buy": [30, 35, 40, 45, 50, 55, 60, 65, 0]
+
+}
